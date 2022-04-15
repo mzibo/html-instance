@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画翻页时钟特效</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>特效 <strong>时钟</strong></h1>
+        <div id="Date" class="date"></div>
+        <div class="clock">
+            <div class="clock-time hours" data-init-value="22">
+                <span class="count-title">时</span>
+
+                <div class="figure hours hours-1">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+
+                <div class="figure hours hours-2">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="clock-time min" data-init-value="0">
+                <span class="count-title">分</span>
+
+                <div class="figure min min-1">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+
+                <div class="figure min min-2">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="clock-time sec" data-init-value="0">
+                <span class="count-title">秒</span>
+
+                <div class="figure sec sec-1">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+
+                <div class="figure sec sec-2">
+                    <span class="top">0</span>
+                    <span class="top-back">
+                        <span>0</span>
+                    </span>
+                    <span class="bottom">0</span>
+                    <span class="bottom-back">
+                        <span>0</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/block.js"></script>
+</body>
+
+</html>
